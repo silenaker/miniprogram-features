@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+	<image src="/assets/ink_wash.jpeg" mode="aspectFill"></image>
+	<canvas type="2d" id="poster" class="poster"></canvas>
+	<button bindtap="createPoster">保存到本地相册</button>
+</view>
